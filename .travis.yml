@@ -15,6 +15,7 @@ deploy:
     env: "Dockernew-env"
     bucket_name: "elasticbeanstalk-us-east-2-304552109372"
     bucket_path: "dockernew"
+    edge: true
     on:
         branch: master
     access_key_id: $AWS_ACCESS_KEY
