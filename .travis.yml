@@ -12,7 +12,7 @@ deploy:
     provider: elasticbeanstalk
     region: "us-east-2"
     app: "dockernew"
-    env: "Dockernew-env"
+    env: "Dockernew-env-1"
     bucket_name: "elasticbeanstalk-us-east-2-304552109372"
     bucket_path: "dockernew"
     edge: true
